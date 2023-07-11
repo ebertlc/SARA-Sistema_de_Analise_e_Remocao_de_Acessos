@@ -127,9 +127,9 @@ def acessar_s2id(driver):
 # Função para fazer login
 def login(driver):
     usuario_login = driver.find_element(By.ID, 'usuario')
-    usuario_login.send_keys('eber.elias@mdr.gov.br')
+    usuario_login.send_keys('email@dominio.com')
     senha_login = driver.find_element(By.ID, 'j_idt56')
-    senha_login.send_keys('Flasco@4528')
+    senha_login.send_keys('senha')
     botao_login = driver.find_element(By.ID, 'btnEnter')
     botao_login.click()
 
